@@ -1,0 +1,31 @@
+{
+  "api": {
+    "chat_completions_url": "https://your-provider.example/v1/chat/completions",
+    "api_key_env": "GENSHIN_TRANSLATOR_API_KEY",
+    "model": "replace-with-your-cheap-model",
+    "timeout_seconds": 20,
+    "max_tokens": 96
+  },
+  "capture": {
+    "monitor_index": 1,
+    "left": 0.15,
+    "top": 0.815,
+    "right": 0.85,
+    "bottom": 0.935,
+    "tesseract_path": "tesseract-ocr\\tesseract.exe"
+  },
+  "overlay": {
+    "top": 0.935,
+    "font_size": 20,
+    "min_font_size": 15,
+    "max_chars_per_line": 90,
+    "max_width_ratio": 0.74
+  },
+  "glossary": {
+    "Traveler": "旅行者",
+    "Paimon": "派蒙",
+    "Teyvat": "提瓦特",
+    "Vision": "神之眼",
+    "Archon": "尘世执政"
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-cpython/
+.installer-cache/
+python-runtime/
+build/
+dist/
+config.json
+*.log
