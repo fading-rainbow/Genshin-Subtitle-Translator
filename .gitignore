@@ -8,3 +8,10 @@ build/
 dist/
 config.json
 *.log
+
+# Runtime/private files: never synchronize
+.venv*/
+tesseract-ocr/
+
+# Runtime/private files: never synchronize
+!SOURCE_BASELINE.json

@@ -1,0 +1,8 @@
+{
+  "project": "Genshin-Subtitle-Translator",
+  "source_kind": "current local Windows application source; Windows game runtime not tested here",
+  "development_base": null,
+  "production": null,
+  "public_sanitization": [],
+  "scope": "source only; no runtime config, database, login, or deployment"
+}
